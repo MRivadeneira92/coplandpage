@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+header a {
+    color: white;
+}
+
+#body-bio div p {
+    color: black;
+    text-indent: 2em;
+}
+
+h2 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+hr {
+    width: 75%;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    box-shadow: 0 8px 6px -6px black;
+}
+.navbar-text {
+    color: white;
+    margin: 0;
+}
+.nav-link {
+    color: white;
+    font-size: large;
+    padding-left: 40px !important;
+}
+
+#social ul {
+    margin: 15% auto;
+}
+
+li {
+    color: white;
+    display: inline;
+    list-style: none;
+    padding-left: 5%;
+}
+
+#vid-new {
+    margin: 0 auto;
+}
+
+@media (max-width: 767.98px) {
+    #body-container {
+        width: 100% !important;
+    }
+
+    #body-latest-video {
+        height: 100vh;
+    }
+
+}
